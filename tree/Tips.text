@@ -1,0 +1,4 @@
+1. If sorted array is given try to solve it by first Binary Search
+2. Ceiling no. :- Smallest no. in array greater than or equal to target no.
+3. Floor no. :- Greatest no. in array smaller than or equal to target no.
+4. if there is 1 to n number in array for sorting then use cyclic sort

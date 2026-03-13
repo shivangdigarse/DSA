@@ -1,0 +1,26 @@
+
+import java.util.Scanner;
+
+class Swap1{
+    void swaping(int x, int y){
+        x = x + y;
+        y = x - y;
+        x = x - y;
+
+        System.out.println("Swapped values: x = " + x + ", y = " + y);
+    }
+}
+public class Swap2 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter the first value: ");
+        int x = input.nextInt();
+        System.out.println("Enter the second value: ");
+        int y = input.nextInt();
+
+        Swap1 s1 = new Swap1();
+        s1.swaping(x,y);
+
+        input.close();
+    }
+}
