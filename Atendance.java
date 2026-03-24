@@ -1,7 +1,7 @@
 class Calculate{
     static int TotalPresent = 0;
     static int TotalClass = 0;
-     private int TheoryTotal = 0;
+    private int TheoryTotal = 0;
     int TheoryPresent = 0;
     int PracticalTotal = 0;
     int PracticalPresent = 0;
@@ -42,12 +42,12 @@ class Calculate{
 }
 public class Atendance {
     public static void main(String[] args) {
-    Calculate ML = new Calculate("ML",9,7,2,2);
-    Calculate CN = new Calculate("CN",4,4,2,2);
-    Calculate CD = new Calculate("CD",10, 8);
-    Calculate DA = new Calculate("DA",4,4);
-    Calculate PM = new Calculate("PM",10,9);
-    Calculate SD = new Calculate("SD",4,2);
+    Calculate ML = new Calculate("ML",12,7,8,6);
+    Calculate CN = new Calculate("CN",12,12,6,6);
+    Calculate CD = new Calculate("CD",20, 10);
+    Calculate DA = new Calculate("DA",8,6);
+    Calculate PM = new Calculate("PM",21,13);
+    Calculate SM = new Calculate("SM",8,4);
 
 
     System.out.println("Total Lectures: " + Calculate.TotalClass);
